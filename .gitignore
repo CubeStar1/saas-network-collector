@@ -1,0 +1,10 @@
+.env
+node_modules
+tmp
+downloads
+.DS_Store
+dist
+server.cjs
+index.html
+.cursorrules
+general-json-key.cjs

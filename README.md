@@ -32,6 +32,12 @@ npm install -g anyproxy
 
 4. Add the `general-json-key.cjs` file to the project's root directory:
 
+Run the following command to capture the network traffic:
+```bash
+anyproxy --port 8001  --rule .\general-json-key.js --intercept
+```
+
+(For the AI agent do the next steps)
 5. Copy the example environment file and add your credentials:
 ```bash
 cp .env.example .env
@@ -47,6 +53,11 @@ OPENAI_API_KEY=your_openai_key
 GOOGLE_EMAIL=your_google_email
 GOOGLE_PASSWORD=your_google_password
 
+```
+
+6. To generate the csv file run the following command:
+```bash
+python csv_creation.py
 ```
 
 ## Usage
